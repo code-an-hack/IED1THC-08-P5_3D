@@ -1,5 +1,5 @@
 // Orbit Controls Module
-let angleX = 0;
+let angleX = Math.PI; // Start with a slight downward angle (30 degrees)
 let angleY = 0;
 let zoom = 300;
 let isDragging = false;
